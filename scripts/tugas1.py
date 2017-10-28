@@ -33,8 +33,8 @@ def test():
     assert luas_persegi(9) == 81
     assert luas_persegi_panjang(7, 3) == 21
     assert luas_persegi_panjang(15, 10) == 150
-    assert_approx_equal(luas_lingkaran(7), 21.99, 4)
-    assert_approx_equal(luas_lingkaran(14), 43.98, 4)
+    assert_approx_equal(luas_lingkaran(7), 153.938, 4)
+    assert_approx_equal(luas_lingkaran(14), 615.752, 4)
     assert_approx_equal(luas_segi_enam(2), 10.39, 4)
     assert_approx_equal(luas_segi_enam(9), 210.44, 4)
 
